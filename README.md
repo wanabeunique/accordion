@@ -59,12 +59,12 @@
 https://codepen.io/wanabeunique/pen/jOQzZLy
 
 
---accordion-ico - ссылка на маркер открытия аккордиона
---accordion-ico-rotate - поворот маркера в градусах
---accordion-rotate-time - время поворота маркеры
---accordion-ratio - коэффицент длительности открытия контента аккордиона относительно поворота маркера
---accordion-bg - цвет заднего фона
---accordion-padding - отступ карточки
---accordion-item-offset - внутренний отсуп каждого элеменета карточки
---accordion-content-offset - отсуп абзацев
---accordion-border - цвет рамки
+--accordion-ico - ссылка на маркер открытия аккордиона<br/>
+--accordion-ico-rotate - поворот маркера в градусах<br/>
+--accordion-rotate-time - время поворота маркеры<br/>
+--accordion-ratio - коэффицент длительности открытия контента аккордиона относительно поворота маркера<br/>
+--accordion-bg - цвет заднего фона<br/>
+--accordion-padding - отступ карточки<br/>
+--accordion-item-offset - внутренний отсуп каждого элеменета карточки<br/>
+--accordion-content-offset - отсуп абзацев<br/>
+--accordion-border - цвет рамки<br/>
