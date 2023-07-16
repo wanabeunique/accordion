@@ -1,6 +1,7 @@
 Простая реаализация аккордиона с возможностью удобной настройки параметров через переменные в style.css
 
 Разметка:
+```
 
 <ul class="accordion price__accordion">
   <p class="accordion__title">Бар</p>
@@ -30,7 +31,9 @@
   </li>
 </ul>
 
+```
 Минимальная разметка:
+```
 
 <ul class="accordion price__accordion">>
   <li class="accordion__item">
@@ -51,6 +54,7 @@
   </li>
 </ul>
 
+```
 Пример:
 https://codepen.io/wanabeunique/pen/jOQzZLy
 
