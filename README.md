@@ -7,6 +7,14 @@ npm install simple-accordion-js
 
 ```
 
+Для использования: 
+
+```
+
+<link rel="stylesheet" href="style.css">
+<script defer src="accordion.js"></script>
+
+```
 
 Разметка:
 ```
