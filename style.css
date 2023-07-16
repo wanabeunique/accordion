@@ -1,0 +1,71 @@
+:root {
+  --accordion-ico: url("https://cdn-icons-png.flaticon.com/512/271/271228.png");
+  --accordion-ico-rotate: rotate(90deg);
+  --accordion-ratio: 2;
+  --accordion-rotate-time: .5s;
+  --accordion-bg: gray;
+  --accordion-padding: 60px 40px;
+  --accordion-item-offset: 25px;
+  --accordion-content-offset: 10px;
+  --accordion-border: rgba(0, 0, 0, 0.6); }
+
+.accordion {
+  width: 100%;
+  background: var(--accordion-bg);
+  list-style: none;
+  margin: 0;
+  padding: var(--accordion-padding);
+  display: flex;
+  flex-direction: column; }
+  .accordion__item {
+    padding-top: var(--accordion-item-offset);
+    display: flex;
+    flex-direction: column;
+    gap: var(--accordion-item-offset); }
+    .accordion__item:not(:last-child) {
+      padding: var(--accordion-item-offset) 0;
+      border-bottom: 1px solid var(--accordion-border); }
+  .accordion__list {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    padding: 0;
+    margin: 0; }
+  .accordion__preview {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .accordion__title {
+    margin: 0; }
+  .accordion__ico {
+    width: 15px;
+    height: 15px;
+    background-image: var(--accordion-ico);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; }
+  .accordion__content {
+    display: none; }
+  .accordion__content--active {
+    display: flex;
+    flex-direction: column;
+    gap: var(--accordion-content-offset);
+    animation: calc(var(--accordion-rotate-time) *  var(--accordion-ratio)) contentAnimation forwards; }
+  .accordion__ico--active {
+    animation: var(--accordion-rotate-time) icoAnimation forwards; }
+  .accordion__text {
+    margin: 0; }
+
+@keyframes contentAnimation {
+  0% {
+    opacity: 0;
+    height: 0; }
+  100% {
+    opacity: 1;
+    height: 100%; } }
+
+@keyframes icoAnimation {
+  0% {
+    transform: 0; }
+  100% {
+    transform: var(--accordion-ico-rotate); } }

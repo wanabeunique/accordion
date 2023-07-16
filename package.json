@@ -1,0 +1,22 @@
+{
+  "name": "accordion",
+  "version": "1.0.0",
+  "description": "Простая реаализация аккордиона с возможностью удобной настройки параметров",
+  "main": "accordion.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wanabeunique/accordion.git"
+  },
+  "keywords": [
+    "accordion"
+  ],
+  "author": "wanabeunique",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wanabeunique/accordion/issues"
+  },
+  "homepage": "https://github.com/wanabeunique/accordion#readme"
+}
